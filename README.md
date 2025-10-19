@@ -1,4 +1,3 @@
-# User_insight-streamlit
 # 📱 UserInsight - Predict User Behavior
 A machine learning project using Streamlit and Random Forest to classify mobile usage patterns.
 
