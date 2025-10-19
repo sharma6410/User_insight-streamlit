@@ -21,7 +21,7 @@ The model is trained using a Random Forest Classifier.
 # -------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\Aditi Sharma\Downloads\user_behavior_dataset.csv")
+    df = pd.read_csv(r"user_behavior_dataset.csv")
     return df
 
 df = load_data()
@@ -95,3 +95,4 @@ if st.button("Predict"):
         st.write(f"⚠️ **Disadvantages:** {info['disadvantages']}")
     else:
         st.warning(f"Predicted class: {prediction} (No info available)")
+
